@@ -1,0 +1,46 @@
+{
+  "name": "recipe-planner",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "server": "nodemon server/index.js"
+  },
+  "engines":{
+    "node": "22.11.0"
+  },
+  "dependencies": {
+    "@angular/animations": "^18.1.0",
+    "@angular/cdk": "^18.1.0",
+    "@angular/common": "^18.1.0",
+    "@angular/compiler": "^18.1.0",
+    "@angular/core": "^18.1.0",
+    "@angular/forms": "^18.1.0",
+    "@angular/material": "^18.1.0",
+    "@angular/platform-browser": "^18.1.0",
+    "@angular/platform-browser-dynamic": "^18.1.0",
+    "@angular/router": "^18.1.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.5.0",
+    "zone.js": "~0.14.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.1.0",
+    "@angular/cli": "^18.1.0",
+    "@angular/compiler-cli": "^18.1.0",
+    "autoprefixer": "^10.4.17",
+    "nodemon": "^3.0.3",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.5.0"
+  }
+}
